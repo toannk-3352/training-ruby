@@ -1,3 +1,16 @@
+=begin 
+Khởi tạo một mảng gồm n  số tự nhiên sau đó
+hiển thị các dãy con tăng trong mảng.
+
+NOTE: In ra các dãy con liên tiếp tăng dần
+
+ex: 
+input: [5,3,6,7,8,3,4,7,0,1,3,2,8]
+output:  [3,6,7,8] , [3,4,7], [0,1,3], [2,8]
+=end
+
+
+
 initArray = [5,3,6,7,8,3,4,7,0,1,3,2,8]
 # expect [3,6,7,8] , [3,4,7], [0,1,3], [2,8]
 sub_arrays = []

@@ -21,9 +21,9 @@ while attempts < length.to_i
 end
 print arrayNumber
 puts
-puts(arrayNumber.min_by { |x| x })
+puts arrayNumber.min_by { |x| x }
 puts arrayNumber.sum / arrayNumber.length.to_f
 puts arrayNumber.inject(0) { |result, element| result + element }
-print(arrayNumber.select { |x| x > 10 })
+print arrayNumber.select { |x| x > 10 }
 puts
-puts(arrayNumber.find { |x| x > 10 })
+puts arrayNumber.find { |x| x > 10 }

@@ -1,3 +1,10 @@
+=begin 
+Nhập vào chuỗi 
+- Đảo ngược chuỗi
+- Bỏ dấu space
+- kiểm tra chuỗi có phải định dạng email không 
+=end
+
 print "Input String: "
 string = gets.chomp
 puts "Reverse string #{string.reverse}"

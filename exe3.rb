@@ -1,3 +1,6 @@
+
+# cho 1 Hash quản lí ID và name (tự khai báo). Nhập ID, trả name ra màn hình và ngược lại 
+
 hash_data = {
   1 => "John",
   2 => "Jane",

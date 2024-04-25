@@ -1,3 +1,12 @@
+=begin 
+Có 1 mảng các hash như sau:
+
+[{"Hanoi": ["CauGiay", "vung xanh"] },  {"Hanoi" => ["LongBien", "vung do"]},  {"Hanoi" => ["Metri", "vung xanh"]}]
+
+Biến đổi về các dạng:
+{"vung xanh": ["Cau Giay - Hanoi", "Metri - Hanoi"], "vung do": ["LongBien - Hanoi"] }
+=end
+
 hash_array = [{ "Hanoi": ['CauGiay', 'vung xanh'] }, { 'Hanoi' => ['LongBien', 'vung do'] },
               { 'Hanoi' => ['Metri', 'vung xanh'] }]
 
