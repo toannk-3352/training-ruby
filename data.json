@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin1234",
+      "role": "Admin"
+    },
+    {
+      "username": "user",
+      "password": "user123",
+      "role": "User"
+    },
+    {
+      "username": "admin123",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "username": "admin1234",
+      "password": "admin1234",
+      "role": "User"
+    }
+  ],
+  "computers": [
+    {
+      "id": "FHN_01_101_12",
+      "name": "Asus"
+    },
+    {
+      "id": "FHN_01_101_13",
+      "name": "LG"
+    },
+    {
+      "id": "FHN_01_101_14",
+      "name": "HP"
+    },
+    {
+      "id": "FHN_01_101_15",
+      "name": "Mac"
+    }
+  ]
+}
